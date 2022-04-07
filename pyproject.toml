@@ -8,6 +8,9 @@ authors = ["“Debasish <“devbose2008@gmailcom”>"]
 [tool.poetry.dependencies]
 python = ">=3.7,<4.0"
 Flask = "^2.1.1"
+psycopg2-binary = "^2.9.3"
+Flask-SQLAlchemy = "^2.5.1"
+Flask-Migrate = "^3.1.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
